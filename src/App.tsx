@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 // IMG
 import LeftArrow from "./assets/left-arrow.svg";
 import RightArrow from "./assets/right-arrow.svg";
@@ -65,7 +65,7 @@ function App() {
     <div className="mt-20 container mx-auto">
       <div className="flex justify-between items-center">
         <h3 className="text-2xl font-bold">
-          {currentMonth.getMonth() + 1}  {currentMonth.getFullYear()}
+          {currentMonth.getMonth() + 1} {currentMonth.getFullYear()}
         </h3>
         <div className="flex gap-3 items-center">
           <span
